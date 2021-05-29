@@ -1,0 +1,13 @@
+# Environments
+.env
+.venv
+
+# pyenv
+.python-version
+
+# Editors
+.vscode/
+.idea/
+
+# Byte-compiled / optimized 
+__pycache__/
