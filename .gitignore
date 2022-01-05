@@ -11,3 +11,4 @@
 
 # Byte-compiled / optimized 
 __pycache__/
+dist/
