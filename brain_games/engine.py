@@ -22,13 +22,13 @@ def play(rule, add_game_data):
             return
 
         result = add_game_data()
-        response = user_response()
+        answer = user_response()
 
-        if result == response:
+        if result == answer:
             print('Correct!')
             return play_iter(acc - 1)
 
-        print(f"'{response}' is wrong answer ;(. Correct answer was '{result}'.")
+        print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.")
         print(f"Let's try again, {user_name}!")
 
     return play_iter(3)
