@@ -14,9 +14,11 @@ prompt = "^0.4.1"
 [tool.poetry.dev-dependencies]
 ipython = "^7.30.1"
 flake8 = "^4.0.1"
+autopep8 = "^1.6.0"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
