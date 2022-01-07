@@ -14,7 +14,7 @@ def play(rule, add_game_data):
     user_name = get_brain_games(rule)
 
     def user_response():
-        return input('Your answer: ')
+        return int(input('Your answer: '))
 
     def play_iter(acc):
         if acc == 0:

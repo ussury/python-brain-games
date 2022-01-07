@@ -10,6 +10,9 @@ brain-even:
 brain-calc:
 	poetry run brain-calc
 
+brain-gcd:
+	poetry run brain-gcd
+
 build:
 	poetry build
 
@@ -19,7 +22,7 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
-uninstall:
+package-uninstall:
 	python3 -m pip uninstall hexlet-code
 
 lint:
