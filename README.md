@@ -26,3 +26,10 @@
 * **Игра "Простое ли число?"**
 
     Пользователю показывается случайное число. И ему нужно ответить `yes`, если число простое, или `no`.
+
+## Установка 
+
+```
+python3 -m pip install --user --upgrade pip
+python3 -m pip install --user git+https://github.com/ussury/python-project-lvl1.git
+```
