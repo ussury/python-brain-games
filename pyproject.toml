@@ -3,6 +3,8 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "initial training project on hexlet.io"
 authors = ["ussury <meshalkins@ya.ru>"]
+license = "MIT License"
+repository = "https://github.com/ussury/python-project-lvl1"
 packages = [
   { include = "brain_games" },
 ]
