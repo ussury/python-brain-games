@@ -31,5 +31,5 @@
 
 ```
 python3 -m pip install --user --upgrade pip
-python3 -m pip install --user git+https://github.com/ussury/python-project-lvl1.git
+python3 -m pip install --user git+https://github.com/ussury/python-brain-games.git
 ```
